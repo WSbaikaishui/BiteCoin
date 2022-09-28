@@ -94,7 +94,7 @@ func (bc *BlockChain) FindSpendableOutputs(address string, amount int) (int, map
 
 func (bc *BlockChain) FindUnspentTransactions(address string) []Transaction {
 	var unspentTXs []Transaction
-	spentTXOs := 
+	spentTXOs :=
 }
 
 
